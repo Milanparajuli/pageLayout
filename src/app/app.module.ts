@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { RightComponent } from './right/right.component';
 import { LeftComponent } from './left/left.component';
+import { CenterComponent } from './center/center.component';
+import { FootComponent } from './foot/foot.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
     RightComponent,
-    LeftComponent
+    LeftComponent,
+    CenterComponent,
+    FootComponent
   ],
   imports: [
     BrowserModule,
